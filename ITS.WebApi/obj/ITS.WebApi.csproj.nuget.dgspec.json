@@ -1,0 +1,688 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.WebApi\\ITS.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Commands\\ITS.Commands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Commands\\ITS.Commands.csproj",
+        "projectName": "ITS.Commands",
+        "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Commands\\ITS.Commands.csproj",
+        "packagesPath": "C:\\Users\\shirin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Commands\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shirin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Infrastructure\\ITS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Infrastructure\\ITS.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Domain\\ITS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Domain\\ITS.Domain.csproj",
+        "projectName": "ITS.Domain",
+        "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Domain\\ITS.Domain.csproj",
+        "packagesPath": "C:\\Users\\shirin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shirin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Infrastructure\\ITS.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Infrastructure\\ITS.Infrastructure.csproj",
+        "projectName": "ITS.Infrastructure",
+        "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Infrastructure\\ITS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\shirin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shirin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.QueryModel\\ITS.QueryModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.QueryModel\\ITS.QueryModel.csproj",
+        "projectName": "ITS.QueryModel",
+        "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.QueryModel\\ITS.QueryModel.csproj",
+        "packagesPath": "C:\\Users\\shirin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.QueryModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shirin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Implements\\ITS.Repository.Implements.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Implements\\ITS.Repository.Implements.csproj",
+        "projectName": "ITS.Repository.Implements",
+        "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Implements\\ITS.Repository.Implements.csproj",
+        "packagesPath": "C:\\Users\\shirin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Implements\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shirin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Domain\\ITS.Domain.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Domain\\ITS.Domain.csproj"
+              },
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.QueryModel\\ITS.QueryModel.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.QueryModel\\ITS.QueryModel.csproj"
+              },
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Interface\\ITS.Repository.Interface.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Interface\\ITS.Repository.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Interface\\ITS.Repository.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Interface\\ITS.Repository.Interface.csproj",
+        "projectName": "ITS.Repository.Interface",
+        "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Interface\\ITS.Repository.Interface.csproj",
+        "packagesPath": "C:\\Users\\shirin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shirin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Domain\\ITS.Domain.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Domain\\ITS.Domain.csproj"
+              },
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.QueryModel\\ITS.QueryModel.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.QueryModel\\ITS.QueryModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Service.Interface\\ITS.Service.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Service.Interface\\ITS.Service.Interface.csproj",
+        "projectName": "ITS.Service.Interface",
+        "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Service.Interface\\ITS.Service.Interface.csproj",
+        "packagesPath": "C:\\Users\\shirin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Service.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shirin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Commands\\ITS.Commands.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Commands\\ITS.Commands.csproj"
+              },
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.QueryModel\\ITS.QueryModel.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.QueryModel\\ITS.QueryModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Sevice.Implements\\ITS.Service.Implements.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Sevice.Implements\\ITS.Service.Implements.csproj",
+        "projectName": "ITS.Service.Implements",
+        "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Sevice.Implements\\ITS.Service.Implements.csproj",
+        "packagesPath": "C:\\Users\\shirin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Sevice.Implements\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shirin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Interface\\ITS.Repository.Interface.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Interface\\ITS.Repository.Interface.csproj"
+              },
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Service.Interface\\ITS.Service.Interface.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Service.Interface\\ITS.Service.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.WebApi\\ITS.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.WebApi\\ITS.WebApi.csproj",
+        "projectName": "ITS.WebApi",
+        "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.WebApi\\ITS.WebApi.csproj",
+        "packagesPath": "C:\\Users\\shirin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shirin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Infrastructure\\ITS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Infrastructure\\ITS.Infrastructure.csproj"
+              },
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Implements\\ITS.Repository.Implements.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Implements\\ITS.Repository.Implements.csproj"
+              },
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Service.Interface\\ITS.Service.Interface.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Service.Interface\\ITS.Service.Interface.csproj"
+              },
+              "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Sevice.Implements\\ITS.Service.Implements.csproj": {
+                "projectPath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Sevice.Implements\\ITS.Service.Implements.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "AutoWrapper.Core": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

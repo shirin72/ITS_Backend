@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "I/N0Qy74rlUy9YYD7+MfLaZ3/imR1QNXVlIm9Yg8VjoWaa8jtB3IITfM+D6dnvD/SKrwwZDxLimzh7ugbsEVMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Repository.Interface\\ITS.Repository.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shirin\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
+    "C:\\Users\\shirin\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

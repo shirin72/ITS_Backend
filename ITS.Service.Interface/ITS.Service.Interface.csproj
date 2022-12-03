@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITS.Commands\ITS.Commands.csproj" />
+    <ProjectReference Include="..\ITS.QueryModel\ITS.QueryModel.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/dgUrHm5L7Pj4EN+3Yb97SRpvyMVvVV3Qa+Cp4lfJJWoBvB6lmZ3Db7uRzP9rl0d9P0pMyb9a+7+epPCUerVuw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Service.Interface\\ITS.Service.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shirin\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
+    "C:\\Users\\shirin\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

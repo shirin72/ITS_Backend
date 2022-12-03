@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "D6e/w59xkLvZj1SKCO1zT6QkA9HKegVQzW91hkG8nhRP175KSAaekCSCveVc16LPlNyHS8Kcyl8fmRN/a85dXQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shirin\\Desktop\\ITS_Backend\\ITS.Infrastructure\\ITS.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shirin\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
